@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Place favicon.ico in the root directory -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./assets/img/icons/favicon.png"
+    />
+
+    <!-- All CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/swiper.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <title>BBC News</title>
+  </head>
+  <body>
+    <div id="content">
+      <header class="header-area">
+        <div class="header-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-10">
+                <div class="header-logo">
+                  <a href="./index.html">
+                    <img src="./assets/img/logo/logo.png" alt="logo" />
+                    <span class="text-uppercase">news</span> <span>বাংলা</span>
+                  </a>
+                </div>
+              </div>
+              <div class="col-2 d-md-none">
+                <div class="toggle-icon">
+                  <i class="fa-solid fa-minus"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-12 d-md-block d-none">
+                <div class="main-menu">
+                  <ul>
+                    <li class="position-relative">
+                      <a href="./index.html">
+                        <span>মূলপাতা </span>
+                      </a>
+                    </li>
+                    <li class="position-relative">
+                      <a href="./topics.html">
+                        <span>রাজনীতি </span>
+                      </a>
+                    </li>
+                    <li class="position-relative">
+                      <a href="./collection.html">
+                        <span>সর্বাধিক পঠিত </span>
+                      </a>
+                    </li>
+                    <li class="position-relative">
+                      <a href="./collection.html">
+                        <span>বিশ্ব </span>
+                      </a>
+                    </li>
+                    <li class="position-relative">
+                      <a href="./collection.html">
+                        <span>অর্থনীতি </span>
+                      </a>
+                    </li>
+                    <li class="position-relative">
+                      <a href="./collection.html">
+                        <span>স্বাস্থ্য </span>
+                      </a>
+                    </li>
+                    <li class="position-relative">
+                      <a href="./collection.html">
+                        <span>খেলা </span>
+                      </a>
+                    </li>
+                    <li class="position-relative">
+                      <a href="./collection.html">
+                        <span>প্রযুক্তি </span>
+                      </a>
+                    </li>
+                    <li class="position-relative">
+                      <a href="./topics-video.html">
+                        <span>ভিডিও </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-menu d-md-none">
+          <div class="mobile-logo">
+            <a href="./index.html">
+              <img src="./assets/img/logo/logo.png" alt="mobile_logo" />
+            </a>
+          </div>
+          <ul class="mobile-main-menu">
+            <li class="">
+              <a href="./index.html">
+                <span>মূলপাতা </span>
+              </a>
+            </li>
+            <li class="">
+              <a href="./topics.html">
+                <span>রাজনীতি </span>
+              </a>
+            </li>
+            <li class="">
+              <a href="#">
+                <span>সর্বাধিক পঠিত </span>
+              </a>
+            </li>
+            <li class="">
+              <a href="#">
+                <span>বিশ্ব </span>
+              </a>
+            </li>
+            <li class="">
+              <a href="#">
+                <span>অর্থনীতি </span>
+              </a>
+            </li>
+            <li class="">
+              <a href="#">
+                <span>স্বাস্থ্য </span>
+              </a>
+            </li>
+            <li class="">
+              <a href="#">
+                <span>খেলা </span>
+              </a>
+            </li>
+            <li class="">
+              <a href="#">
+                <span>প্রযুক্তি </span>
+              </a>
+            </li>
+            <li class="">
+              <a href="./topics-video.html">
+                <span>ভিডিও </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <!-- main news area start -->
+        <section class="news-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-8">
+                <a href="./article.html" class="news-wrap">
+                  <div class="news-img">
+                    <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                  </div>
+                  <div class="news-content">
+                    <h3 class="news-title">
+                      নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে আরো
+                      কতদিন লাগবে?
+                    </h3>
+                    <p class="news-description">
+                      নতুন সরকার দায়িত্ব নেয়ার পর পুলিশ কাজে ফিরলেও তাদের এখনো
+                      স্বাভাবিক তৎপরতা দেখা যাচ্ছে না। ফলে রাজধানীসহ সারাদেশে
+                      অপরাধমূলক কর্মকাণ্ডের অনেক খবর পাওয়া যাচ্ছে। গত কয়েকদিনে
+                      দেশের বিভিন্ন জায়গায় রাজনৈতিক হামলা, মাজার ভাঙা কিংবা
+                      বিভিন্ন সংঘাতেরও খবর পাওয়া যাচ্ছে। পরিস্থিতি কবে পুরোপুরি
+                      স্বাভাবিক হবে? ৩ ঘন্টা আগে
+                    </p>
+                    <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-6 col-md-4">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <a href="#" class="news-wrap sub-news">
+                      <div class="news-img">
+                        <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                      </div>
+                      <div class="news-content">
+                        <h6 class="news-title">
+                          নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে
+                          আরো কতদিন লাগবে?
+                        </h6>
+                        <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-6">
+                    <a href="#" class="news-wrap sub-news">
+                      <div class="news-img">
+                        <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                      </div>
+                      <div class="news-content">
+                        <h6 class="news-title">
+                          নিষিদ্ধ হিযবুত তাহ্‌রীর প্রকাশ্যে কাজ করছে, কী বলছে
+                          সরকার?
+                        </h6>
+                        <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-6 d-lg-block d-md-none">
+                    <a href="#" class="news-wrap sub-news">
+                      <div class="news-img">
+                        <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                      </div>
+                      <div class="news-content">
+                        <h6 class="news-title">
+                          নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে
+                          আরো কতদিন লাগবে?
+                        </h6>
+                        <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-6 d-lg-block d-md-none">
+                    <a href="#" class="news-wrap sub-news">
+                      <div class="news-img">
+                        <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                      </div>
+                      <div class="news-content">
+                        <h6 class="news-title">
+                          নিষিদ্ধ হিযবুত তাহ্‌রীর প্রকাশ্যে কাজ করছে, কী বলছে
+                          সরকার?
+                        </h6>
+                        <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- main news area end -->
+
+        <!--  news area start -->
+
+        <section class="news-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <a href="#" class="news-wrap">
+                  <div class="news-content">
+                    <h6 class="news-title">
+                      নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে আরো
+                      কতদিন লাগবে?
+                    </h6>
+                    <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <a href="#" class="news-wrap">
+                  <div class="news-content">
+                    <h6 class="news-title">
+                      নিষিদ্ধ হিযবুত তাহ্‌রীর প্রকাশ্যে কাজ করছে, কী বলছে সরকার?
+                    </h6>
+                    <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <a href="#" class="news-wrap">
+                  <div class="news-content">
+                    <h6 class="news-title">
+                      নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে আরো
+                      কতদিন লাগবে?
+                    </h6>
+                    <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <a href="#" class="news-wrap">
+                  <div class="news-content">
+                    <h6 class="news-title">
+                      নিষিদ্ধ হিযবুত তাহ্‌রীর প্রকাশ্যে কাজ করছে, কী বলছে সরকার?
+                    </h6>
+                    <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--  news area end -->
+
+        <!-- main news area start -->
+        <section class="news-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-title">
+                  <h5>নির্বাচিত খবর</h5>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <a href="#" class="news-wrap">
+                  <div class="news-img">
+                    <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                  </div>
+                  <div class="news-content">
+                    <h3 class="news-title">
+                      নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে আরো
+                      কতদিন লাগবে?
+                    </h3>
+                    <p class="news-description">
+                      নতুন সরকার দায়িত্ব নেয়ার পর পুলিশ কাজে ফিরলেও তাদের এখনো
+                      স্বাভাবিক তৎপরতা দেখা যাচ্ছে না। ফলে রাজধানীসহ সারাদেশে
+                      অপরাধমূলক কর্মকাণ্ডের অনেক খবর পাওয়া যাচ্ছে। গত কয়েকদিনে
+                      দেশের বিভিন্ন জায়গায় রাজনৈতিক হামলা, মাজার ভাঙা কিংবা
+                      বিভিন্ন সংঘাতেরও খবর পাওয়া যাচ্ছে। পরিস্থিতি কবে পুরোপুরি
+                      স্বাভাবিক হবে? ৩ ঘন্টা আগে
+                    </p>
+                    <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-md-6">
+                    <a href="#" class="news-wrap sub-news">
+                      <div class="news-img">
+                        <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                      </div>
+                      <div class="news-content">
+                        <h6 class="news-title">
+                          নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে
+                          আরো কতদিন লাগবে?
+                        </h6>
+                        <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="#" class="news-wrap sub-news">
+                      <div class="news-img">
+                        <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                      </div>
+                      <div class="news-content">
+                        <h6 class="news-title">
+                          নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে
+                          আরো কতদিন লাগবে?
+                        </h6>
+                        <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="#" class="news-wrap sub-news">
+                      <div class="news-img">
+                        <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                      </div>
+                      <div class="news-content">
+                        <h6 class="news-title">
+                          নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে
+                          আরো কতদিন লাগবে?
+                        </h6>
+                        <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="#" class="news-wrap sub-news">
+                      <div class="news-img">
+                        <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                      </div>
+                      <div class="news-content">
+                        <h6 class="news-title">
+                          নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে
+                          আরো কতদিন লাগবে?
+                        </h6>
+                        <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- main news area end -->
+
+        <!--  news area start -->
+
+        <section class="news-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-title">
+                  <h5>
+                    বাংলাদেশ
+                    <i class="fa fa-chevron-right"></i>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <a href="#" class="news-wrap sub-news">
+                  <div class="news-img">
+                    <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                  </div>
+                  <div class="news-content">
+                    <h6 class="news-title">
+                      নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে আরো
+                      কতদিন লাগবে?
+                    </h6>
+                    <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <a href="#" class="news-wrap sub-news">
+                  <div class="news-img">
+                    <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                  </div>
+                  <div class="news-content">
+                    <h6 class="news-title">
+                      নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে আরো
+                      কতদিন লাগবে?
+                    </h6>
+                    <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <a href="#" class="news-wrap sub-news">
+                  <div class="news-img">
+                    <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                  </div>
+                  <div class="news-content">
+                    <h6 class="news-title">
+                      নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে আরো
+                      কতদিন লাগবে?
+                    </h6>
+                    <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <a href="#" class="news-wrap sub-news">
+                  <div class="news-img">
+                    <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                  </div>
+                  <div class="news-content">
+                    <h6 class="news-title">
+                      নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে আরো
+                      কতদিন লাগবে?
+                    </h6>
+                    <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--  news area end -->
+
+        <!--  video news area start -->
+
+        <section class="news-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-title">
+                  <h5>
+                    ভিডিও
+                    <i class="fa fa-chevron-right"></i>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <a href="./single-article.html" class="news-wrap sub-news">
+                  <div class="news-img with-video">
+                    <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                    <div class="video-item">
+                      <i class="fa fa-play"></i>
+                      <span class="video-duration">4:23</span>
+                    </div>
+                  </div>
+                  <div class="news-content">
+                    <h6 class="news-title">
+                      নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে আরো
+                      কতদিন লাগবে?
+                    </h6>
+                    <p class="news-time"><span>২৭</span> অগাস্ট ২০২৪</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <a href="./single-article.html" class="news-wrap sub-news">
+                  <div class="news-img with-video">
+                    <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                    <div class="video-item">
+                      <i class="fa fa-play"></i>
+                      <span class="video-duration">4:23</span>
+                    </div>
+                  </div>
+                  <div class="news-content">
+                    <h6 class="news-title">
+                      নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে আরো
+                      কতদিন লাগবে?
+                    </h6>
+                    <p class="news-time"><span>৭</span> অগাস্ট ২০২৪</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <a href="./single-article.html" class="news-wrap sub-news">
+                  <div class="news-img with-video">
+                    <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                    <div class="video-item">
+                      <i class="fa fa-play"></i>
+                      <span class="video-duration">4:23</span>
+                    </div>
+                  </div>
+                  <div class="news-content">
+                    <h6 class="news-title">
+                      নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে আরো
+                      কতদিন লাগবে?
+                    </h6>
+                    <p class="news-time"><span>২</span> অগাস্ট ২০২৪</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <a href="./single-article.html" class="news-wrap sub-news">
+                  <div class="news-img with-video">
+                    <img src="./assets/img/blog/blog-1.webp" alt="news" />
+                    <div class="video-item">
+                      <i class="fa fa-play"></i>
+                      <span class="video-duration">4:23</span>
+                    </div>
+                  </div>
+                  <div class="news-content">
+                    <h6 class="news-title">
+                      নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে আরো
+                      কতদিন লাগবে?
+                    </h6>
+                    <p class="news-time"><span>৩ </span>ঘন্টা আগে</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- video news area end -->
+
+        <!--  news area start -->
+
+        <section class="news-area">
+          <div class="container">
+            <div class="row">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-title">
+                    <h5>সর্বাধিক পঠিত</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <a href="#" class="news-text-wrap">
+                  <h2 class="news-count">১</h2>
+                  <h6 class="news-headline">
+                    ‘হাসিনার ফ্লাইট যেভাবে রেডারের বাইরে রাখা হয়েছিল’
+                  </h6>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="#" class="news-text-wrap">
+                  <h2 class="news-count">২</h2>
+                  <h6 class="news-headline">
+                    নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে আরো
+                    কতদিন লাগবে?
+                  </h6>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="#" class="news-text-wrap">
+                  <h2 class="news-count">৩</h2>
+                  <h6 class="news-headline">
+                    কক্সবাজার সৈকতে নারীদের হেনস্থার ভাইরাল ভিডিও, পর্যটনে
+                    নিরাপত্তা নিয়ে প্রশ্ন
+                  </h6>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="#" class="news-text-wrap">
+                  <h2 class="news-count">৪</h2>
+                  <h6 class="news-headline">
+                    নিষ্ক্রিয় পুলিশ, আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক হতে আরো
+                    কতদিন লাগবে?
+                  </h6>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="#" class="news-text-wrap">
+                  <h2 class="news-count">৫</h2>
+                  <h6 class="news-headline">
+                    বাংলাদেশ থেকে বিদ্যুতের বকেয়া আদায়ে ভারতীয় সংস্থাগুলো কী
+                    করবে?
+                  </h6>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="#" class="news-text-wrap">
+                  <h2 class="news-count">৬</h2>
+                  <h6 class="news-headline">
+                    গণঅভ্যুত্থান থেকে বিএনপি যেভাবে বারবার লাভবান হয়েছে
+                  </h6>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--  news area end -->
+
+        <!--  cto area start -->
+
+        <section class="cto-area">
+          <div class="container">
+            <div class="row align-items-end">
+              <div class="col-md-6">
+                <div class="cto-wrap">
+                  <h3 class="cto-title">অন্যান্য ভাষায় সংবাদ দেখুন</h3>
+                  <a href="#" class="cto-btn">
+                    <span> এখানে ক্লিক করুন </span>
+                    <i class="fa fa-chevron-right"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6 text-end">
+                <div class="cto-img">
+                  <img src="./assets/img/other-images/cto.webp" alt="cto" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--  cto area end -->
+      </main>
+
+      <!-- footer area start  -->
+
+      <footer class="footer-area">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="header-logo">
+                  <a href="./index.html">
+                    <img src="./assets/img/logo/logo.png" alt="logo" />
+                    <span class="text-uppercase">news</span> <span>বাংলা</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="footer-widget">
+                <a href="#">
+                  <span>বিবিসির ওপর কেন আপনি আস্থা রাখতে পারেন</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <div class="container">
+          <div class="row d-md-flex d-none">
+            <div class="col-lg-3 col-md-4">
+              <div class="footer-widget">
+                <ul>
+                  <li>
+                    <a href="#"> <span>ব্যবহারের শর্তাবলী</span> </a>
+                  </li>
+                  <li>
+                    <a href="#"> <span>বিবিসি সম্পর্কে</span> </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <div class="footer-widget">
+                <ul>
+                  <li>
+                    <a href="#"> <span>প্রিভেসি নীতি</span> </a>
+                  </li>
+                  <li>
+                    <a href="#"> <span>কুকিজ</span> </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <div class="footer-widget">
+                <ul>
+                  <li>
+                    <a href="#"> <span>বিবিসির সাথে যোগাযোগ করুন</span> </a>
+                  </li>
+                  <li>
+                    <a href="#"><span> Do not share or sell my info</span> </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row d-md-none">
+            <div class="col-5">
+              <div class="footer-widget">
+                <ul>
+                  <li>
+                    <a href="#"> <span>ব্যবহারের শর্তাবলী</span> </a>
+                  </li>
+                  <li>
+                    <a href="#"> <span>বিবিসি সম্পর্কে</span> </a>
+                  </li>
+                  <li>
+                    <a href="#"> <span>প্রিভেসি নীতি</span> </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-7">
+              <div class="footer-widget">
+                <ul>
+                  <li>
+                    <a href="#"> <span>কুকিজ</span> </a>
+                  </li>
+                  <li>
+                    <a href="#"> <span>বিবিসির সাথে যোগাযোগ করুন</span> </a>
+                  </li>
+                  <li>
+                    <a href="#"> <span>Do not share or sell my info</span> </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <div class="footer-copy-right">
+                <p>
+                  © 2024 বিবিসি। বাইরের কোন সাইটের তথ্যের জন্য বিবিসি দায়বদ্ধ
+                  নয়। বাইরের লিংক সম্পর্কে বিবিসির দৃষ্টিভঙ্গি সম্বন্ধে পড়ুন।
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- all script  -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/swiper.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
