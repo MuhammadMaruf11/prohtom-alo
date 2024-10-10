@@ -35,7 +35,7 @@
 }
 
 .news-wrap:hover .news-item .item-text h6 {
-  color: #0573e6;
+  color: var(--hover-color);
 }
 
 .news-mid {
@@ -69,4 +69,82 @@
 
 /* news  css end  */
 
-/* article page css end */
+/* news slider css start */
+
+.news-slider-wrap {
+  position: relative;
+  height: 105px;
+  padding: 15px;
+  z-index: 1;
+}
+
+.news-slider-wrap::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000000bf;
+  z-index: -1;
+}
+
+.news-slider-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+}
+
+.news-slider-img img {
+  width: 100%;
+}
+
+.news-slider-title {
+  margin-bottom: 8px;
+}
+
+.news-slider-title a {
+  color: var(--primary-color);
+}
+
+.news-slider-subtitle a {
+  color: #fff;
+}
+
+.news-slider-title a:hover {
+  text-decoration: underline;
+}
+
+.news-slider-subtitle a:hover {
+  color: var(--primary-color);
+}
+
+/* news slider css end */
+
+/* news for css start  */
+
+.news-for-wrap,
+.news-for-title,
+.news-for-description {
+  margin-bottom: 24px;
+}
+
+.news-for-img {
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+.news-for-img img {
+  width: 100%;
+}
+
+.news-for-wrap:hover .news-for-img img {
+  transform: scale(1.1);
+}
+.news-for-wrap:hover .news-for-title h6 {
+  color: var(--hover-color);
+}
+
+/* news for css end */
