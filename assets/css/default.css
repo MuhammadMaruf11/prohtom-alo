@@ -1,11 +1,12 @@
 /* Root Variables */
 :root {
   /* Color Palette */
-  --primary-color: #ffb300;
+  --primary-color: #f26522;
+  --secondary-color: #ffb300;
   --text-color: #141414;
   --background-color: #ebebeb;
   --light-background-color: #f1f1f1;
-  --border-color: #00000026;
+  --border-color: #ddd;
   --hover-color: #0573e6;
 
   /* Font Sizes */
@@ -210,6 +211,19 @@ p:last-child {
   margin-bottom: 0;
 }
 
+.border-top {
+  border-top: 1px solid var(--border-color);
+}
+.border-bottom {
+  border-bottom: 1px solid var(--border-color);
+}
+.border-left {
+  border-left: 1px solid var(--border-color);
+}
+.border-right {
+  border-right: 1px solid var(--border-color);
+}
+
 /* Form */
 label {
   cursor: pointer;
@@ -250,6 +264,9 @@ label {
 
 .text-theme {
   color: var(--primary-color) !important;
+}
+.text-theme-2 {
+  color: var(--secondary-color) !important;
 }
 
 /* Bg Color */
