@@ -42,4 +42,26 @@
   padding: 24px 0;
 }
 
+.footer-copy-right ul li {
+  display: inline-block;
+  position: relative;
+  margin: 0 20px;
+}
+
+.footer-copy-right ul li::before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: var(--border-color);
+  border-radius: 50%;
+  top: 50%;
+  left: -20px;
+  transform: translateY(-50%);
+}
+
+.footer-copy-right ul li:first-child:before {
+  display: none;
+}
+
 /* destop footer css end  */

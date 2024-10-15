@@ -20,20 +20,24 @@ document.addEventListener('DOMContentLoaded', function () {
          play video 
      --------------------------------------------- */
 
-    document.querySelector('#playVideo').addEventListener('click', () => {
-        // Hide the image and the play button
-        var img = document.querySelector('.live-mid-img img');
-        var sourceImg = document.querySelector('.source-img');
-        var video = document.querySelector('.live-mid-img video');
+    const playVideo = document.querySelector('#playVideo');
 
-        // Hide the image and the play button
-        img.style.display = 'none';
-        sourceImg.style.display = 'none';
+    if (playVideo) {
+        playVideo.addEventListener('click', () => {
+            // Hide the image and the play button
+            var img = document.querySelector('.live-mid-img img');
+            var sourceImg = document.querySelector('.source-img');
+            var video = document.querySelector('.live-mid-img video');
 
-        // Show the video and play it
-        video.style.display = 'block';
-        video.play();
-    })
+            // Hide the image and the play button
+            img.style.display = 'none';
+            sourceImg.style.display = 'none';
+
+            // Show the video and play it
+            video.style.display = 'block';
+            video.play();
+        })
+    }
 
 
 })
