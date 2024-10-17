@@ -107,7 +107,7 @@
 }
 
 .main-menu > ul > li:hover > a {
-  color: var(--primary-color);
+  color: var(--hover-color);
 }
 
 .main-menu a:hover span {
@@ -124,21 +124,6 @@
   display: inline-block;
   font-weight: 600;
   font-size: 14px;
-}
-
-.main-menu ul > li > a::after {
-  position: absolute;
-  content: "";
-  width: 0;
-  height: 2px;
-  background: var(--primary-color);
-  bottom: -15px;
-  left: 0;
-  transition: width 0.2s linear;
-}
-
-.main-menu ul > li > a:hover:after {
-  width: 100%;
 }
 
 .header-action-list ul {
