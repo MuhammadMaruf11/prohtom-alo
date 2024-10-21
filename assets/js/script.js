@@ -126,12 +126,14 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Hide emoji picker if clicked outside
-    document.addEventListener("click", function (event) {
-        if (!emojiPicker.contains(event.target) && event.target !== emojiBtn) {
-            emojiPicker.classList.remove("visible");
-        }
-    });
+    if (emojiPicker && emojiBtn) {
+        // Hide emoji picker if clicked outside
+        document.addEventListener("click", function (event) {
+            if (!emojiPicker.contains(event.target) && event.target !== emojiBtn) {
+                emojiPicker.classList.remove("visible");
+            }
+        });
+    }
 
 
 
@@ -170,4 +172,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
+
+
+
 })

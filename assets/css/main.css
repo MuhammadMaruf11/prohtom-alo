@@ -186,6 +186,7 @@
   right: 0;
   bottom: 0;
   background: #00000080;
+  z-index: 1;
 }
 
 .news-mid.news-sports .news-wrap:first-child .news-description {
@@ -194,6 +195,7 @@
   left: 0;
   color: #fff;
   padding: 24px;
+  z-index: 3;
 }
 
 .news-mid.news-sports .news-wrap:first-child .item-text {
@@ -204,6 +206,27 @@
   color: #fff;
   font-size: 22px;
   line-height: 35px;
+}
+
+.news-mid.news-sports .news-wrap.video-wrap .news-description {
+  padding: 12px;
+}
+
+.news-mid.news-sports .news-wrap.video-wrap .news-description h6 {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.news-mid.news-sports .news-wrap.video-wrap .news-description {
+  margin-bottom: 5px;
+}
+
+.news-mid.news-sports .news-wrap.video-wrap .news-description h3 {
+  color: #fff;
+}
+
+.news-mid.news-sports .news-wrap .news-description .news-time {
+  color: #ffffff99;
 }
 
 .news-mid.news-sports .news-wrap:first-child .news-description h6:hover {
@@ -451,6 +474,7 @@
 .news-img-aside-wrap {
   margin-bottom: 24px;
   display: inline-block;
+  width: 100%;
 }
 
 .news-aside-img {
@@ -460,6 +484,7 @@
 .news-aside-img img {
   display: inline-block;
   margin-bottom: 15px;
+  width: 100%;
 }
 
 .news-aside-img .news-aside-icon {
@@ -864,3 +889,72 @@
 }
 
 /* other css end */
+
+/* video css start  */
+
+.video-play-wrap {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 56.25%;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.youtube-video-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.youtube-video {
+  width: 100%;
+  height: 100%;
+}
+
+.video-content {
+  margin: 12px 0;
+}
+
+.video-title {
+  margin-bottom: 12px;
+}
+
+.video-content .news-time {
+  margin: 24px 0;
+}
+
+.video-content .video-description {
+  padding: 24px;
+  background: #f7f7f7;
+  margin-bottom: 24px;
+}
+
+.news-wrap.video-wrap .news-item .item-img {
+  min-width: 40%;
+  position: relative;
+}
+
+.news-for-wrap.video-wrap .news-for-img {
+  position: relative;
+}
+
+.video-wrap .video-icon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: #d60000;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  font-size: 12px;
+  z-index: 2;
+}
+
+/* video css end */
