@@ -77,6 +77,10 @@ img {
   transition: all 0.3s linear 0s;
 }
 
+.item-img img {
+  width: 100%;
+}
+
 section {
   padding: 20px 0;
 }
@@ -125,6 +129,10 @@ a:disabled,
 button:disabled {
   cursor: not-allowed;
   opacity: 0.6;
+}
+
+.news-time {
+  font-size: 14px;
 }
 
 .disabled {

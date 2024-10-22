@@ -18,10 +18,10 @@ $(document).ready(function () {
 
             breakpoints: {
                 320: {
-                    slidesPerView: 2,
+                    slidesPerView: 1,
                 },
                 768: {
-                    slidesPerView: 3,
+                    slidesPerView: 2,
                 },
                 1024: {
                     slidesPerView: 4,
