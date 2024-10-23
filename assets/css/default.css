@@ -4,6 +4,7 @@
   --primary-color: #f26522;
   --secondary-color: #ffb300;
   --text-color: #141414;
+  --body-color: #000000ad;
   --background-color: #ebebeb;
   --light-background-color: #f1f1f1;
   --border-color: #ddd;
@@ -15,7 +16,7 @@
   --h3-font-size: 30px; /* 30px */
   --h4-font-size: 24px; /* 24px */
   --h5-font-size: 20px; /* 20px */
-  --h6-font-size: 16px; /* 16px */
+  --h6-font-size: 18px; /* 18px */
   --body-font-size: 1rem; /* 16px */
   --small-font-size: 0.875rem; /* 14px */
 
@@ -40,7 +41,7 @@
 }
 
 body {
-  color: var(--text-color);
+  color: var(--body-color);
   font-size: 16px;
   font-family: "Noto Serif Bengali", serif;
   font-weight: 400;
@@ -88,7 +89,7 @@ section {
 /* Shadow and Outline */
 a {
   text-decoration: none;
-  color: #000;
+  color: inherit;
   -webkit-transition: all 0.3s linear 0s;
   -moz-transition: all 0.3s linear 0s;
   -o-transition: all 0.3s linear 0s;

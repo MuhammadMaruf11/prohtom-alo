@@ -8,12 +8,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const toggleBtn = document.querySelector('.toggle-icon');
 
-    toggleBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        document.querySelector('.mobile-menu').classList.toggle('open')
-        toggleBtn.classList.toggle('open')
-    })
+    if (toggleBtn) {
+        toggleBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            document.querySelector('.mobile-menu').classList.toggle('open')
+            toggleBtn.classList.toggle('open')
+        })
 
+    }
 
 
     /*-------------------------------------------

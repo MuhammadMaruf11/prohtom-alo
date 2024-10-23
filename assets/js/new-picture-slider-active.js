@@ -15,6 +15,11 @@ $(document).ready(function () {
             slidesPerColumn: 1,
             loop: true,
             spaceBetween: 24,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+
 
             breakpoints: {
                 320: {
