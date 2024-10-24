@@ -2,8 +2,8 @@
 
 .news-wrap {
   border-bottom: 1px solid #ddd;
-  margin-bottom: 24px;
-  padding-bottom: 20px;
+  margin-bottom: 12px;
+  padding-bottom: 5px;
   display: block;
 }
 
@@ -26,7 +26,7 @@
 .news-item {
   display: flex;
   column-gap: 12px;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 .news-item .item-img {
@@ -71,6 +71,7 @@
 .news-mid .news-wrap:nth-child(3) {
   width: 48%;
   display: block;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .news-mid .news-wrap:nth-child(4),
@@ -78,6 +79,7 @@
 .news-mid .news-wrap:nth-child(6) {
   width: 30%;
   display: block;
+  border-bottom: 0;
 }
 
 /* news  css end  */
@@ -150,7 +152,7 @@
 .news-for-wrap,
 .news-for-title,
 .news-for-description {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 .news-for-img {
@@ -234,20 +236,16 @@
   color: #fff;
 }
 
-.news-mid.news-sports .news-wrap .news-description .news-time {
-  color: #ffffff99;
-}
-
 .news-mid.news-sports .news-wrap:first-child .news-description h6:hover {
   color: var(--secondary-color);
 }
 
 /* news tab css   */
-
-.news-nav .nav-tabs,
+/* temporary css  */
+/* .news-nav .nav-tabs,
 .news-nav .nav-tabs {
   border: 0;
-}
+} */
 
 .news-nav .nav-link,
 .news-nav .nav-link {

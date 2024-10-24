@@ -6,16 +6,24 @@ document.addEventListener('DOMContentLoaded', function () {
      --------------------------------------------- */
 
 
-    const toggleBtn = document.querySelector('.toggle-icon');
+    const toggleBtn = document.querySelectorAll('.toggle-icon');
+    const crossBtn = document.querySelector('#crossBtn');
+
+
 
     if (toggleBtn) {
-        toggleBtn.addEventListener('click', (e) => {
-            e.preventDefault();
-            document.querySelector('.mobile-menu').classList.toggle('open')
-            toggleBtn.classList.toggle('open')
-        })
 
+        toggleBtn.forEach(element => {
+            element.addEventListener('click', (e) => {
+                e.preventDefault();
+                document.querySelector('.mobile-menu').classList.add('open')
+            })
+        });
     }
+
+    crossBtn.addEventListener('click', () => {
+        document.querySelector('.mobile-menu').classList.remove('open')
+    })
 
 
     /*-------------------------------------------
